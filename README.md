@@ -7,15 +7,19 @@ A home screen that lists all the news items.
 Scrollable news items that display the title, description, image, and published date.
 Search functionality to allow users to search for news by typing the news title.
 
-Getting Started
-
-Once the app loads, the user can create an account or log in using Google, Facebook, or email.
-The user can then browse the daily news items or search for specific news items by typing the news title.
-Dependencies
 
 This application is dependent on the following packages:
 
-http
-flutter_facebook_auth
-google_sign_in
-shared_preferences
+    cupertino_icons: ^1.0.2
+    get: ^4.6.5
+    firebase_core: ^2.10.0
+    firebase_auth: ^4.4.2
+    google_sign_in: ^6.1.0
+    fluttertoast: ^8.2.1
+    auto_size_text: ^3.0.0
+    http: ^0.13.5
+    flutter_facebook_auth: ^5.0.8
+    get_time_ago: ^1.1.8
+    intl_phone_field: ^3.1.0
+
+
