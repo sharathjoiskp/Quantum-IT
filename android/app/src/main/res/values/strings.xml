@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"quantum_it"</string>
+    <string name="facebook_app_id">995938391783166</string>
+    <string name="fb_login_protocol_scheme">fb995938391783166</string>
+    <string name="facebook_client_token">075c28225277b0508026c1455c0ec453</string>
+</resources>
