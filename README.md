@@ -1,16 +1,21 @@
-# quantum_it
+This is a Flutter-based mobile application that allows users to browse daily news from various sources using the News API. The application includes features such as Google authentication, Facebook authentication, and email authentication. To use the app, the user needs to create an account.
 
-A new Flutter project.
+Features
+User authentication using Google, Facebook, or email.
+Display of daily news from various sources via the News API.
+A home screen that lists all the news items.
+Scrollable news items that display the title, description, image, and published date.
+Search functionality to allow users to search for news by typing the news title.
 
-## Getting Started
+Getting Started
 
-This project is a starting point for a Flutter application.
+Once the app loads, the user can create an account or log in using Google, Facebook, or email.
+The user can then browse the daily news items or search for specific news items by typing the news title.
+Dependencies
 
-A few resources to get you started if this is your first Flutter project:
+This application is dependent on the following packages:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+http
+flutter_facebook_auth
+google_sign_in
+shared_preferences
